@@ -80,17 +80,17 @@ Ensure you have the following libraries installed:
 
 - `torch`: PyTorch for building and training neural networks.
 - `torchvision`: PyTorch's library for vision-related tasks.
-- `matplotlib`: For visualization purposes.
-- `numpy`: For numerical computing.
 - `pickle`: For serializing Python objects.
-- `os`: For interacting with the file system.
 
 ## Usage
 
 1. **Download Dataset**: The project requires a dataset of cat images. You can download the dataset from
 [Cat_Dataset_15k](https://drive.google.com/file/d/1zNWRIkelSD4BHMYtvxT0zbvJec4dGKnG/view?usp=sharing) and place it in the appropriate directory.
 
-3. **Run the Notebook**: Execute the notebook `Cat Generator with DCGans.ipynb`. 
+2. **Download required files**: This project needs some extra file to run analysis and visualizing action after training.
+[Extra Files](https://drive.google.com/drive/folders/1rd1cZAw4sp9lXINUy7hQEgks5sO0SVlk?usp=sharing) and place it in the appropriate directory.
+
+3. **Run the Notebook or .py files**: Execute the notebook `Cat Generator with DCGans.ipynb`. 
 Ensure you have access to GPU for faster training, although CPU training is also supported.
 
 4. **Training**: The notebook contains the training loop for both the Generator and Discriminator.
@@ -113,7 +113,7 @@ Here is an example of the training image used for training:
 
 ## Generated Images
 
-Here is an example of a generated cat image trained after 20 epochs and 15k images with a batch size of 64:
+Here is an example of a generated cat image trained after `20` epochs and `15k` images with a batch size of `64`:
 
 ![Generated Image](images/[19-20][200-247].png)
 
