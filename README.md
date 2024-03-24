@@ -121,6 +121,8 @@ Here is an example of a generated cat image trained after `20` epochs and `15k` 
 
 - The project utilizes Colab for easy access to GPU resources.
 - Inspired by DCGANs and the idea of generative adversarial networks.
+- The idea of `Generator` and `Discriminator` architecture is improvasion.
+- The dataset is taken from `kaggle`.
 
 ## Author
 
